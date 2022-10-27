@@ -37,7 +37,7 @@ while True:
             print(num1, "/", num2, "=", divide(num1, num2))
 
         next_calculation = input("Let's do next calculation? (yes/no): ")
-        if next_calculation == "no":
+        if next_calculation == "no" or next_calculation == "n":
           break
     
     else:
